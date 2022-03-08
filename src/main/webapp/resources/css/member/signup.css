@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+#form-wrapper {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-image > .image-view {
+	text-align: center;
+}
+
+.profile-image > .image-view img {
+	width: 300px;
+	height: 300px;
+	border: 1px solid;
+	border-radius: 150px;
+}
+
+.profile-image .choise-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.profile-image .choise-list .choise-opt {
+	cursor: pointer;
+}
+
+.profile-image .choise-list-wrapper {
+	margin: 30px auto;
+}
+
+.profile-image .choise-list .image-view img {
+	width: 150px;
+	height: 150px;
+}
+
+.profile-image .choise-list .text {
+	text-align: center;
+	margin-top: 5px;
+}
